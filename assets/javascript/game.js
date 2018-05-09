@@ -97,17 +97,19 @@ $("#crystal-four").on("click", function(){
 });
 console.log(crystals[0]);
 
-// $("#crystal-two").on("click").val(crystals[1]);
+
 console.log(crystals[1]);
 
-// $("#crystal-three").on("click").val(crystals[2]);
+
 console.log(crystals[2]);
 
-// $("#crystal-four").on("click").val(crystals[3]);
+
 console.log(crystals[3]);
 
 
-
+if (gameScore === randomNumber) {
+  alert("You Wind");
+}
 
 //   gameScore += value;
 
