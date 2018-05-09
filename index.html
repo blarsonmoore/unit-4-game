@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <title>Crystal Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1>This is a Game.</h1>
+      <h2>Play at your own risk.</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center">
+          <div class="card-heading">
+            <h3 class="card-title bg-success">Wins</h3>
+            <div id="win-count">0</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card text-center">
+          <div class="card-heading">
+            <h3 class="card-title bg-success">Random Number</h3>
+            <div id="random-number"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center">
+          <div class="card-heading">
+            <h3 class="card-title bg-success">Losses</h3>
+            <div id="loss-count">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Crystal Header -->
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h3>Crystals</h3>
+      </div>
+    </div>
+<!-- Clickable Gems -->
+    <div class="row text-center">
+      <div class="col-md-3">
+        <img id="crystal-one" class="img-thumbnail" src="http://via.placeholder.com/200x200" alt="gem">
+      </div>
+      <div class="col-md-3">
+        <img id="crystal-two" class="img-thumbnail" src="http://via.placeholder.com/200x200" alt="gem">
+      </div>
+      <div class="col-md-3">
+        <img id="crystal-three" class="img-thumbnail" src="http://via.placeholder.com/200x200" alt="gem">
+      </div>
+      <div class="col-md-3">
+        <img id="crystal-four" class="img-thumbnail" src="http://via.placeholder.com/200x200" alt="gem">
+      </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="card text-center">
+          <div class="card-heading">
+            <h3 class="card-title bg-success">Your Score</h3>
+            <div id="player-score"></div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <script src="./assets/javascript/game.js"></script>
+ 
+</body>
+
+</html>

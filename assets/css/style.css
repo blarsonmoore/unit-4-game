@@ -1,0 +1,19 @@
+#win-count {
+  font-size: 56px;
+  color: green;
+}
+
+#random-number {
+  font-size: 56px;
+  color: black;
+}
+
+#loss-count {
+  font-size: 56px;
+  color: red;
+}
+
+#player-score {
+  font-size: 56px;
+  color: royalblue;
+}
