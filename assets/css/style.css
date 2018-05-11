@@ -19,5 +19,9 @@
 }
 
 #random-number {
-color: yellow;
+color: black;
+}
+
+#header-row {
+  margin-bottom: 20px;
 }

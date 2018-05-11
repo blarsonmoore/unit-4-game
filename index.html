@@ -17,15 +17,28 @@
 
 <body>
   <div class="container">
-    <div class="jumbotron jumbotron-fluid text-center">
-      <h1>This is a Game.</h1>
-      <h2>Play at your own risk.</h2>
+    <div class="row" id="header-row">
+      <div class="col-md-12">
+        <div class="card text-center">
+          <div class="card-heading">
+            <h1 class="card-title bg-primary">Crystal Collecor</h1>
+            <h2>Rules</h2>
+            <ul>
+                <li>A random number between 19 - 120 will be displayed at the begining of each game.</li>
+                <li>Each crystal is assigned a random hidden number between 1 - 12.</li>
+                <li>When a crystal is clicked, its value is added to the your score.</li>
+                <li>Try to get your score to match the random number.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="row">
       <div class="col-md-3">
         <div class="card text-center">
           <div class="card-heading">
-            <h3 class="card-title bg-success">Wins</h3>
+            <h3 class="card-title bg-primary">Wins</h3>
             <div id="win-count">0</div>
           </div>
         </div>
@@ -34,7 +47,7 @@
       <div class="col-md-3">
         <div class="card text-center">
           <div class="card-heading">
-            <h3 class="card-title bg-warning">Random Number</h3>
+            <h3 class="card-title bg-primary">Random Number</h3>
             <div id="random-number"></div>
           </div>
         </div>
@@ -51,7 +64,7 @@
       <div class="col-md-3">
         <div class="card text-center">
           <div class="card-heading">
-            <h3 class="card-title bg-danger">Losses</h3>
+            <h3 class="card-title bg-primary">Losses</h3>
             <div id="loss-count">0</div>
           </div>
         </div>
@@ -89,7 +102,7 @@
         </div>
       </div>
     </div> -->
-    
+
   </div>
   <script src="./assets/javascript/game.js"></script>
 
