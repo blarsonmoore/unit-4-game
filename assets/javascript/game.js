@@ -38,16 +38,16 @@ $(document).ready(function () {
   
 
   function win() {
-    alert("Winner!");
     winCount++;
     $("#win-count").text(winCount);
+    alert("Winner!");
     reset();
   }
 
   function loss() {
-    alert("You Lose! Try Again.");
-    $("#loss-count").text(lossCount);
     lossCount++;
+    $("#loss-count").text(lossCount);
+    alert("You Lose! Try Again.");
     reset();
   }
 
